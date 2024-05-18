@@ -33,6 +33,7 @@ application:
       - 'https://raw.githubusercontent.com/guandasheng/adguardhome/main/rule/all.txt' #关圣
       - 'https://raw.githubusercontent.com/jerryn70/GoodbyeAds/master/Formats/GoodbyeAds-AdBlock-Filter.txt' #Goodbyeads70
       - 'https://raw.githubusercontent.com/8680/GOODBYEADS/master/dns.txt' #Goodbyeads8680
+      - 'https://raw.githubusercontent.com/urkbio/adguardhomefilter/main/whitelist.txt' #zyg白名单
       
       
       #原作者自用添加↓
