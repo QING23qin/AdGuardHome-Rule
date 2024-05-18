@@ -1,4 +1,4 @@
-# Update time: 2024-05-17 20:29:49
+# Update time: 2024-05-18 09:09:38
 # Repo URL: AdGuard、AdGuardHome广告过滤规则合并/去重
 
 ###################################   合并/去重自以下规则   ####################################
@@ -89,7 +89,6 @@
 ||union*.365inews.com^
 ||vns86.oss-*.aliyuncs.com^
 ||ysdm*.ys137.com.cn^
-||asd8900.oss-*.aliyuncs.com^
 ||ky891.oss-*.aliyuncs.com^
 ||sf*-fe-tos.pglstatp-toutiao.com^
 ||bdcpro*.techweb.com.cn^
@@ -129,6 +128,7 @@
 ||gcw*.2liang.cn^
 ||sf*-be-pack.pglstatp-toutiao.com^
 ||api-access.pangolin-sdk-toutiao-*.com^
+||stats2.*.fdnames.com^
 ||ac*.faxingchina.com^
 ||localhost^
 ||aff*.kolektiva.net^
@@ -137,6 +137,7 @@
 ||ax.*.ifeng.com^
 ||access.pangolin-sdk-toutiao-*.com^
 ||hbbtv.*.de^
+||asd8900.oss-*.aliyuncs.com^
 ||pixel*.production-public.tubi.io^
 ||adserver*.euroweeklynews.com^
 analytics-*.aasaam.com
@@ -146,9 +147,7 @@ analytics-*.aasaam.com
 ||tracking.olx.
 ||teleriumads-*.netdna-ssl.com^
 ||rum*.a.trbcdn.net^
-||adservice.google.
 ||xlog*-*.tiktokv.com^
-||analytics-api.dvdfab.
 ||liveme-sensors-collect2-*.amazonaws.com^
 ||allsportsflix.
 ||iphone-caviar.ru*entranceId
@@ -171,7 +170,6 @@ analytics-*.aasaam.com
 ||www.fuze-sea*.xyz^
 ||metrics*.fitanalytics.com^
 ||log*-misc-lf.amemv.com^
-||stats2.*.fdnames.com^
 ||stats.zone-telechargement.
 ||eclog*-*.cafe24.com^
 ||clk.rtpdn*.com^
@@ -184,10 +182,8 @@ analytics-*.aasaam.com
 ||mon*-*.tiktokv.us^
 ||pxl-*.ozone.ru^
 ||cnt.yeptube.
-||bc.geocities.
 ||tag-based.s3.*.amazonaws.com^
 ||iptracker-lb-*.amazonaws.com^
-||mobileanalytics.*.amazonaws.com^
 ||tracking.*.miui.com^
 ||putrr*.com^
 ||cpng.lol.^
@@ -283,7 +279,6 @@ analytics-*.aasaam.com
 ||piwik.*.vn^
 ||letssex.
 ||production-adserver-*.amazonaws.com^
-||iad-*.appboy.com^
 ||minitds-*.info^
 ||cl*.k5a.io^
 ||mautic.*.vn^
@@ -332,6 +327,7 @@ analytics-*.aasaam.com
 ||dm-*.toutiao.com^
 ||sd.yhzzzs*.com^
 ||w*.*skwai.com^
+||bjkedv*.xyz^
 ||toujing*.top^
 ||p26.gejulm*.com^
 ||popadex-*.us-east-1.elb.amazonaws.com^
@@ -348,8 +344,10 @@ analytics-*.aasaam.com
 ||tblog-*.kgslb.com^
 ||n*adserv.com^
 ||zahrvfbd*.xyz^
+||apple.com-*.live^
 ||zbc6hy*.live^
 ||sads*z.com^
+||mobileanalytics.*.amazonaws.com^
 ||zcchyr*.xyz^
 ||js.*2023*.live^
 ||mobileoffers-*-download.com^
@@ -360,10 +358,12 @@ analytics-*.aasaam.com
 ||util-*.simply-hentai.com^
 ||fads*z.com^
 ||display-ad-*.kgslb.com^
+||bj1*.online^
 ||mads*z.com^
 ||gtlpa*.com^
 ||ej1*.online^
 ||mistat.*.xiaomi.com^
+||metric*.rediff.com^
 ||yhsfsdv*.com^
 ||thezbpe5*.xyz^
 ||fads*s.com^
@@ -421,8 +421,6 @@ body {
 ||api-*.hismarttv.com^
 ||datacollect*.abtasty.com^
 ||browser-intake-*-datadoghq.com^
-||adsage*.*^
-||adsensor*.*^
 ||2cnjuh34j*.com^
 ||host*.polaroid.com^
 ||ad-*.wikawika.xyz^
@@ -448,7 +446,6 @@ body {
 ||events-api*.outfit7.com^
 ||api*.batmobil.net^
 ||adcounter*.uptolike.ru^
-||metric*.rediff.com^
 ||ablen*.tk^
 ||ad*.ettoday.net^
 ||ad-*.amazonaws.com^
@@ -456,13 +453,9 @@ body {
 ||ads*.bojijulebu.com^
 ||flurry.agentportal.*.yahoodns.net^
 ||geoloc*.geovisite.ovh^
-||adwords*.*^
 ||adcs-*.myappsget.com^
 ||ads*.textra.me^
 ||cs*.mp3bars.com^
-||adsystem*.*^
-||adsrvmedia*.*^
-||analysis*.*^
 ||a*.smlog.co.kr^
 ||api*.amplitude.com^
 ||app-analytics-*.snapchat.com^
@@ -473,7 +466,6 @@ body {
 ||hstats*.hepsiburada.com^
 ||ads*.depositfiles.org^
 ||geoloc*.geo20120530.com^
-||adserver.*^
 ||fp-*it*.fengkongcloud.com^
 ||ad-*.appacc.dbankedge.cn^
 ||host*.rvshare.com^
@@ -492,9 +484,8 @@ body {
 ||collect-v*.51.la^
 ||datacollector-*.dt.hicloud.com^
 ||logger-*.dailymotion.com^
-||adsmogo*.*^
+||iad-*.appboy.com^
 ||ad*.nexage.com^
-||adservice*.*^
 ||analytics*.carambo.la^
 ||aan.amazon.*^
 ||collect-elb-*.amazonaws.com^
@@ -509,8 +500,6 @@ body {
 ||eum*.instana.io^
 ||ads*-normal-lq.zijieapi.com^
 ||ads-dmp-collect.*.karrotmarket.com^
-||aeros*.tk^
-||adsh*.*^
 ||analytics*.prezly.com^
 ||collector*.ex.co^
 ||flurry.agentportal-*.yahoodns.net^
@@ -681,6 +670,7 @@ oHead6205.appendChild( oScript6205);
 ||matt.mercadolibre.
 ||booking.com-id*
 ||cj1*.online^
+||adservice.google.
 ||xparibet*.com^
 ||ads*.dfiles.ru^
 ||americanconsultantrx.
@@ -692,6 +682,8 @@ oHead6205.appendChild( oScript6205);
 ||collector-*.us.tvsquared.com^
 ||web-stat.*^
 ||imglnk*.com^
+||adsage*.*^
+||adsensor*.*^
 ||adidas-outlet*
 ||sarah.*.com^
 ||ajx*.online^
@@ -703,7 +695,6 @@ oHead6205.appendChild( oScript6205);
 ||hokaoutlet*
 ||tccd.douglas.
 ||doubleclick*.xyz^
-||bj1*.online^
 ||pingfore*.*^
 ||ns*.fastthinkingdns.com^
 ||salomonusa*
@@ -729,10 +720,11 @@ jquery-eu-cookie-law-popup*
 ||asicsoutlet*
 cookiePolicyEUPopin*
 ||sta.extreme-down.
+||adsystem*.*^
+||analysis*.*^
 ||d*.wanzhuang.com^
 ||pamela.*.com^
 ||log.*.hunantv.com^
-||bjkedv*.xyz^
 ||webull-download.
 ||sta.zone-telechargement.
 ||adservice.google.*^
@@ -741,6 +733,7 @@ cookiePolicyEUPopin*
 ||booklng.com-*
 ||ads*.depositfiles.com^
 ||jshosting.*^
+||adserver.*^
 ||aj1*.online^
 ||glthub.
 ||no-oppdatert.
@@ -768,6 +761,7 @@ flipdish-cookie-consent*
 ||dsp*.youdao.com^
 ||domob*.*^
 ||guanggao*.*^
+||aeros*.tk^
 ||yandex.avito.sber*
 ||gg*.51cto.com^
 ||sta.wawacity.
@@ -778,6 +772,7 @@ flipdish-cookie-consent*
 ||cloudservice*.kingsoft-office-service.com^
 ||botashunter*
 ||nor-pw*.com^
+||analytics-api.dvdfab.
 ||bj*.9669.cn^
 ||giveawaycord.
 ||webads.*^
@@ -796,10 +791,10 @@ flipdish-cookie-consent*
 ||reschedule-delivery.ups.com.
 ||cas.*.criteo.com^
 |samsungqbe.com^
-||apple.com-*.live^
 ||hostingcloud.*^
 ||pamela.*.net^
 ||1xbet-*.com^
+||bc.geocities.
 ||clkservice*.youdao.com^
 ||ads.*.yahoo.com^
 ||count*.pconline.com.cn^
@@ -823,12 +818,14 @@ flipdish-cookie-consent*
 ||minero-proxy-*.sh^
 ||22betx*.com^
 ||ad*.nownews.com^
+||adwords*.*^
 ||df.infra.shopee.
 ||appsflyer*.*^
 ||brucelead*.com^
 ||highercaptchasettle.
 ||apple-walletsuspension.
 ||dotagift*.xyz^
+||adsrvmedia*.*^
 ||pubggift*.xyz^
 |samsungcloudsolution.net^
 ||omniture*.*^
@@ -846,8 +843,10 @@ flipdish-cookie-consent*
 ||supersonicads*.*^
 ||my-altinn*
 ||log*.molitv.cn^
+||adsmogo*.*^
 ||ssc.southpark*^
 ||waframedia*.*^
+||adservice*.*^
 ||acrxcoupon.
 ||xn--wxtr9fwyxk9c.*^
 ||bs*.9669.cn^
@@ -867,6 +866,7 @@ flipdish-cookie-consent*
 ||blender3ds-download.
 ||socdm*.*^
 ||aj2*.bid^
+||adsh*.*^
 @@||tongji.*kuwo.cn^
 ||americanconsultantsrx.
 ||ap*.pl520.com^
