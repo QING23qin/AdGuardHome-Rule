@@ -33,6 +33,7 @@ application:
       - 'https://raw.githubusercontent.com/jerryn70/GoodbyeAds/master/Formats/GoodbyeAds-AdBlock-Filter.txt' #Goodbyeads70
       - 'https://raw.githubusercontent.com/8680/GOODBYEADS/master/dns.txt' #Goodbyeads8680
       - 'https://raw.githubusercontent.com/urkbio/adguardhomefilter/main/whitelist.txt' #zyg白名单
+      - 'https://raw.githubusercontent.com/privacy-protection-tools/anti-AD/master/anti-ad-easylist.txt' #anti-ad
       
       
       #原作者自用添加↓
