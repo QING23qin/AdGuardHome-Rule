@@ -1,4 +1,4 @@
-# Update time: 2024-06-01 23:55:44
+# Update time: 2024-06-02 09:16:22
 # Repo URL: AdGuard、AdGuardHome广告过滤规则合并/去重
 
 ###################################   合并/去重自以下规则   ####################################
@@ -110,6 +110,7 @@
 ||txhfgwgkwt*.asia^
 ||a*.chajiaotong.com^
 ||bdlm*.hc360.com^
+||ac*.786ip.com^
 ||s*-fe-scm.pglstatp-toutiao.com^
 ||util-*.simply-hentai.com^
 ||geotargetly-api-*.com^
@@ -118,6 +119,7 @@
 ||fpb*.51edu.com^
 ||p*-ad-sign.byteimg.com^
 ||log-*.previewnetworks.com^
+||ac*.pingguolv.com^
 ||at*.doubanio.com^
 ||ads*.opensubtitles.org^
 ||dm*.yxlady.com^
@@ -131,6 +133,7 @@
 ||gcw*.2liang.cn^
 ||sf*-be-pack.pglstatp-toutiao.com^
 ||impservice*.yodao.com^
+||ac*.faxingchina.com^
 ||sam*.baby-kingdom.com^
 ||union*.365inews.com^
 ||access.pangolin-sdk-toutiao-*.com^
@@ -172,11 +175,9 @@
 ||ana*.inews24.com^
 ||api*.bidmachine.io^
 ||doubleclick*.xyz^
-||ac*.786ip.com^
 ||sock*-goguardian.pusher.com^
 ||mcs-va-*.tiktokv.com^
 ||events-api*.outfit7.com^
-||ac*.pingguolv.com^
 ||pingfore*.*^
 ||marketplace-*.hyprmx.com^
 ||ablen*.tk^
@@ -299,7 +300,6 @@
 ||metric*.rediff.com^
 ||ad-*.amazonaws.com^
 ||sda*.xyz^
-||ac*.faxingchina.com^
 ||vmm-satellite*.com^
 ||minero-proxy-*.sh^
 ||log*.aliyuncs.com^
@@ -366,26 +366,6 @@
 ||analytics*.prezly.com^
 ||tracker*.qcloud.com^
 ||collector*.ex.co^
-||33mail.com%2fpage%2fopened^
-||sealfit.ontraport.net%2fo%3f^
-||ip6-localnet^
-||mailchimp.com%2fmctx%2fopens^
-||ip6-loopback^
-||ip6-allnodes^
-||tripadvisor.com%2fimg%2fcdsi%2fpartner%2ftransparent_pixel^
-||tripadvisor.com%2fmpturl%3fp%3d^
-||broadcasthost^
-||fdske.com%2feo%2f^
-||esputnik.com%2frepository%2fapplications%2fcommons%2fhidden.png^
-||links.skillbox.ru%2fo%2f^
-||ip6-mcastprefix^
-||news.samsung.com%2fus%2f%3fnoti%3d^
-||r.ml.reverso.net%2ftr%2fop^
-||ip6-localhost^
-||ip6-allhosts^
-||ip6-allrouters^
-||local^
-||sendfox.com%2ftrk%2fopen%2f^
 ||liveweb*.msstatic.com^
 ||adserver*.euroweeklynews.com^
 ||adsfs.
@@ -684,3 +664,23 @@ consumerapp*.image.myqcloud.com^
 ||poptraf.
 ||lf*-ad-union-sdk.pglstatp-toutiao.com^
 ||v*.sitecounter.site^
+||33mail.com%2fpage%2fopened^
+||sealfit.ontraport.net%2fo%3f^
+||ip6-localnet^
+||mailchimp.com%2fmctx%2fopens^
+||ip6-loopback^
+||ip6-allnodes^
+||tripadvisor.com%2fimg%2fcdsi%2fpartner%2ftransparent_pixel^
+||tripadvisor.com%2fmpturl%3fp%3d^
+||broadcasthost^
+||fdske.com%2feo%2f^
+||esputnik.com%2frepository%2fapplications%2fcommons%2fhidden.png^
+||links.skillbox.ru%2fo%2f^
+||ip6-mcastprefix^
+||news.samsung.com%2fus%2f%3fnoti%3d^
+||r.ml.reverso.net%2ftr%2fop^
+||ip6-localhost^
+||ip6-allhosts^
+||ip6-allrouters^
+||local^
+||sendfox.com%2ftrk%2fopen%2f^
