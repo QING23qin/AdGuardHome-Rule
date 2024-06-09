@@ -1,4 +1,4 @@
-# Update time: 2024-06-09 11:28:17
+# Update time: 2024-06-09 11:37:02
 # Repo URL: AdGuard、AdGuardHome广告过滤规则合并/去重
 
 ###################################   合并/去重自以下规则   ####################################
@@ -347,6 +347,7 @@ analytics-*.aasaam.com
 ||gcw*.2liang.cn^
 ||sf*-be-pack.pglstatp-toutiao.com^
 ||impservice*.yodao.com^
+||ax.*.ifeng.com^
 ||cas.*.criteo.com^
 ||js*.abolezi.com^
 ||hbbtv.*.de^
@@ -392,20 +393,13 @@ rgmechanicsgames.com*VPN.exe
 ||fapnado.*.php|
 ||itechpost.com*adbk
 Banner468x60
-<head>
-<body>
-<!doctype html>
 ||pangolin-sdk-toutiao*.com^
 ||widgets.*.webengage.com^
-||mistat.*.xiaomi.com^
 ||ping*.qq.com^
-||mobileoffers-*-download.com^
 ||n*adserv.xyz^
-||log*-misc-lq.amemv.com^
 ||sell*.etlong.com^
 ||sense-*.tapdb.net^
 ||ulog*.*^
-||log*-normal-lq.toutiaoapi.com^
 ||v*.denakop.com^
 ||w*.*skwai.com^
 ||promo-*.vercel.app^
@@ -416,13 +410,41 @@ Banner468x60
 ||n*adserv.com^
 ||popadex-*.us-east-1.elb.amazonaws.com^
 ||tracker*.qcloud.com^
-||mads*z.com^
 ||sads*z.com^
-||imgpfx.arenavision.
-||player-feedback*.glomex.*^
+<script>
+            pageOptions
+    xhr.send();
+            } else {
+h1 {
+	}
+        loadFeed(...getLoadFeedArguments());
+    function getLoadFeedArguments() {
+                arguments.push(this[possibleArguments[i]]);
+        }
+};
+                }
+                console.log(JSON.parse(xhr.responseText))
+<style>
+            2024 Copyright.  All Rights Reserved.
+        ];
+<head>
+    Privacy Policy
+			Buy this domain.
+    }
+                    return;
+    };
+    <script>
+<!DOCTYPE html>
+body {
+                console.log('There was a problem with the request.');
+            }
+        return arguments;
+}
 ||aj2*.online^
 ||ads.*.yahoo.com^
+||mobileoffers-*-download.com^
 ||cj1*.online^
+||log*-misc-lq.amemv.com^
 ||adsfilebssdlbig.*.kugou.com^
 ||dm-*.toutiao.com^
 ||gads*s.com^
@@ -432,14 +454,17 @@ Banner468x60
 ||display-ad-*.kgslb.com^
 ||adservice.google.*^
 ||bj1*.online^
+||mads*z.com^
 ||ad.kisstvshow.*^
 ||ej1*.online^
+||mistat.*.xiaomi.com^
 ||collector-*.us.tvsquared.com^
 ||hads*s.com^
 ||fads*s.com^
 ||aj3*.bid^
 ||aj1*.online^
 ||ap*.jj20.com^
+||log*-normal-lq.toutiaoapi.com^
 ||ads*.zijieapi.com^
 ||aem-collector-*.kgslb.com^
 ||analytics-ad-*.kgslb.com^
@@ -453,6 +478,8 @@ Banner468x60
 ||firebaselogging-*.googleapis.com^
 ||gads*z.com^
 ||ad.*.xiaomi.com^
+||imgpfx.arenavision.
+||player-feedback*.glomex.*^
 ||zcchyr*.xyz^
 ||js.*2023*.live^
 ||zaqlovh*.xyz^
@@ -507,7 +534,6 @@ directtrack.*.js
 ||2cnjuh34j*.com^
 ||ad-*.wikawika.xyz^
 ||access*.tpns.tencent.com^
-||ax.*.ifeng.com^
 ||duomeng*.*^
 ||xn--xhq9mt12cf5v.*^
 ||analytics*.clickdimensions.com^
