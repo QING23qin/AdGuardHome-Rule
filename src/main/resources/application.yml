@@ -12,19 +12,19 @@ application:
   rule:
     #远程规则
     remote:
-      #- 'https://cdn.jsdelivr.net/gh/hoshsadiq/adblock-nocoin-list/hosts.txt'  #adblock-nocoin-list
-      #- 'https://cdn.jsdelivr.net/gh/durablenapkin/scamblocklist/adguard.txt' #Scam Blocklist
-      #- 'https://someonewhocares.org/hosts/zero/hosts' #Dan Pollock's List
-      #- 'https://cdn.jsdelivr.net/gh/AdguardTeam/FiltersRegistry/filters/filter_15_DnsFilter/filter.txt' #AdGuard DNS filter
-      #- 'https://pgl.yoyo.org/adservers/serverlist.php?hostformat=adblockplus&showintro=1&mimetype=plaintext' #Peter Lowe's List
-      #- 'https://abp.oisd.nl/basic/' #OISD Blocklist Basic
-      #- 'https://adaway.org/hosts.txt' #AdAway Default Blocklist
-      #- 'https://cdn.jsdelivr.net/gh/crazy-max/WindowsSpyBlocker/data/hosts/spy.txt' #WindowsSpyBlocker
-      #- 'https://cdn.jsdelivr.net/gh/o0HalfLife0o/list@master/ad-pc.txt' #HalfLife（pc）
-      #- 'https://raw.githubusercontent.com/jdlingyu/ad-wars/master/hosts' #大圣净化
-      #- 'https://gitlab.com/quidsup/notrack-blocklists/-/raw/master/trackers.list' #Domains classified as tracking or advertising
-      #- 'https://code.gitlink.org.cn/hacamer/AdRules/raw/branch/main/adguard-full.txt' #AdRules AdGuard Full List
-      #- 'https://raw.githubusercontent.com/AdguardTeam/FiltersRegistry/master/filters/filter_2_Base/filter.txt' #adguard base
+      - 'https://cdn.jsdelivr.net/gh/hoshsadiq/adblock-nocoin-list/hosts.txt'  #adblock-nocoin-list
+      - 'https://cdn.jsdelivr.net/gh/durablenapkin/scamblocklist/adguard.txt' #Scam Blocklist
+      - 'https://someonewhocares.org/hosts/zero/hosts' #Dan Pollock's List
+      - 'https://cdn.jsdelivr.net/gh/AdguardTeam/FiltersRegistry/filters/filter_15_DnsFilter/filter.txt' #AdGuard DNS filter
+      - 'https://pgl.yoyo.org/adservers/serverlist.php?hostformat=adblockplus&showintro=1&mimetype=plaintext' #Peter Lowe's List
+      - 'https://abp.oisd.nl/basic/' #OISD Blocklist Basic
+      - 'https://adaway.org/hosts.txt' #AdAway Default Blocklist
+      - 'https://cdn.jsdelivr.net/gh/crazy-max/WindowsSpyBlocker/data/hosts/spy.txt' #WindowsSpyBlocker
+      - 'https://cdn.jsdelivr.net/gh/o0HalfLife0o/list@master/ad-pc.txt' #HalfLife（pc）
+      - 'https://raw.githubusercontent.com/jdlingyu/ad-wars/master/hosts' #大圣净化
+      - 'https://gitlab.com/quidsup/notrack-blocklists/-/raw/master/trackers.list' #Domains classified as tracking or advertising
+      - 'https://code.gitlink.org.cn/hacamer/AdRules/raw/branch/main/adguard-full.txt' #AdRules AdGuard Full List
+      - 'https://raw.githubusercontent.com/AdguardTeam/FiltersRegistry/master/filters/filter_2_Base/filter.txt' #adguard base
       
       #自用添加
       - 'https://raw.githubusercontent.com/Lynricsy/HyperADRules/master/dns.txt' #Hyper
@@ -48,7 +48,7 @@ application:
       #- 'https://raw.githubusercontent.com/xinggsf/Adblock-Plus-Rule/master/rule.txt' #name: 乘风 广告过滤规则
       #- 'https://raw.githubusercontent.com/xinggsf/Adblock-Plus-Rule/master/mv.txt' #name: 乘风 视频过滤规则
       #- 'https://raw.githubusercontent.com/o0HalfLife0o/list/master/ad.txt' #name: HalfLife_合并自乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance
-      #- 'https://adaway.org/hosts.txt' #name: AdAway 官方的去广告 Host 规则
+      - 'https://adaway.org/hosts.txt' #name: AdAway 官方的去广告 Host 规则
       #- 'https://easylist-downloads.adblockplus.org/antiadblockfilters.txt' #name: 去除禁止广告拦截提示规则
     
       #- 'https://raw.githubusercontent.com/jdlingyu/ad-wars/master/hosts' #name: 大圣净化（针对国内视频）
@@ -75,7 +75,7 @@ application:
       #- 'https://ublockorigin.github.io/uAssets/filters/quick-fixes.txt' #name: uBlock filters – Quick fixes
       #- 'https://cdn.statically.io/gh/uBlockOrigin/uAssetsCDN/main/filters/resource-abuse.txt' #name: uBlock filters – Resource abuse
       #- 'https://gitcdn.link/cdn/uBlockOrigin/uAssetsCDN/main/filters/unbreak.txt' #name: uBlock filters – Unbreak
-      #- 'https://filters.adtidy.org/extension/ublock/filters/11.txt' #name: AdGuard Mobile Ads移动设备
+      - 'https://filters.adtidy.org/extension/ublock/filters/11.txt' #name: AdGuard Mobile Ads移动设备
     #本地规则
     local: #本地规则请将文件移动到项目路径rule目录中
       - 'mylist.txt'
