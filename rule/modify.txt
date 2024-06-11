@@ -1,4 +1,4 @@
-# Update time: 2024-06-11 18:23:26
+# Update time: 2024-06-11 20:32:42
 # Repo URL: AdGuard、AdGuardHome广告过滤规则合并/去重
 
 ###################################   合并/去重自以下规则   ####################################
@@ -47,6 +47,7 @@
 
 # 每12小时同步一次、如有误杀、请手动解除
 
+@@||iwan-s.video.qq.com^important
 @@||*catpcha.byteimg.com^
 ||api.zhihu.com/commercial_api/launch_v2^
 |api.zhihu.com/fringe/ad
@@ -17918,6 +17919,7 @@ thedailymash.co.uk,thepoke.co.uk,thetab.com###ad-sidebar-1
 yahoo.com###sda-LREC
 ||vxzcvks.org^$popup
 thedailymash.co.uk,thepoke.co.uk,thetab.com###ad-sidebar-3
+thedailymash.co.uk,thepoke.co.uk,thetab.com###ad-sidebar-2
 bkjia.com##.art_rightad1
 thedailymash.co.uk,thepoke.co.uk,thetab.com###ad-sidebar-4
 ||torrent911.ws/z-
@@ -18244,7 +18246,6 @@ whatmobile.com.pk##div[style^="height:610px"]
 footztube.com##[href^="/tp/out"]
 crn.com##.bottom-section
 ||weibointl.api.weibo.cn/portal.php?*ad*get_coopen_ads
-||viipuris.com^$popup
 ||refpaxfbvjlw.top^$popup
 ||tiprd.xyz^$popup
 /m.html?shareName=*&proxyAccount=
