@@ -1,4 +1,4 @@
-# Update time: 2024-06-12 20:32:12
+# Update time: 2024-06-13 09:13:11
 # Repo URL: AdGuard、AdGuardHome广告过滤规则合并/去重
 
 ###################################   合并/去重自以下规则   ####################################
@@ -4999,6 +4999,7 @@
 ||ps.eyeota.net/pixel^
 ||heise.de/avw-bin/ivw/CP^
 ||cerberus.sqrt-5041.de/somtag/logs^
+#
 /phpads/*
 ||mrdzuibek.com^$popup
 @@||ads.lingxing.com^$~third-party
@@ -10678,7 +10679,6 @@ ruanyifeng.com##a[href*=".kaikeba.com"]
 /public/ads/*$image
 @@||googletagservices.com/tag/js/gpt.js$domain=tvb.com|tvbs.com.tw|www.gamer.com.tw
 ||betzone2000.com^$popup
-||katebugs.com^$popup
 rentixuewei.com##.list_main_R_ad,.show_dy,.ad
 =468x80_
 ||practicepeter.com^$popup
@@ -18246,7 +18246,6 @@ whatmobile.com.pk##div[style^="height:610px"]
 footztube.com##[href^="/tp/out"]
 crn.com##.bottom-section
 ||weibointl.api.weibo.cn/portal.php?*ad*get_coopen_ads
-||viipuris.com^$popup
 ||refpaxfbvjlw.top^$popup
 ||tiprd.xyz^$popup
 /m.html?shareName=*&proxyAccount=
@@ -38595,4 +38594,3 @@ formula1.com##.js-promo-item
 ||63ig.com/go.js
 ||revimedia.com^$popup
 gamecopyworld.com,gamecopyworld.eu##[href*="@"]
-#
