@@ -1,4 +1,4 @@
-# Update time: 2024-06-14 09:13:15
+# Update time: 2024-06-14 20:32:05
 # Repo URL: AdGuard、AdGuardHome广告过滤规则合并/去重
 
 ###################################   合并/去重自以下规则   ####################################
@@ -201,6 +201,7 @@
 ||plusone8.com/ardexaae.php^
 ||crazyshit.com/js/pu^
 ||gaia.adage.com/assets/js/min/BlockDetector.js^
+||*.exaapi.com^
 ||myflixer.is/ajax/banner^
 ||hiy.vidzi.tv/socket.io^
 ||xfuckonline.com/eureka^
@@ -4785,7 +4786,6 @@
 /^applovin\./
 ||*.sysal.cn^
 /^.+stat\.kugou\.com/
-||*.exaapi.com^
 ||*.mobad.ijinshan.com^
 /^adsensor\./
 ||*.hgrqp.com^
@@ -4999,7 +4999,6 @@
 ||ps.eyeota.net/pixel^
 ||heise.de/avw-bin/ivw/CP^
 ||cerberus.sqrt-5041.de/somtag/logs^
-#
 /phpads/*
 ||mrdzuibek.com^$popup
 @@||ads.lingxing.com^$~third-party
@@ -11852,7 +11851,6 @@ tennews.in##div[data-adid]
 gadgets360.com##.lhs_top_banner
 jin10.com##.jin-jgg
 pornx.to##.ads-above-single-player
-||pianyuan.la/slade.js
 =ads_
 @@||msn.wrating.com/a1.js
 ||data.game.xiaomi.com/1px.gif
@@ -15841,6 +15839,7 @@ pictoa.com###d-zone-1
 caibaojian.com##a[onclick*="aly"]
 @@||bytedance.com/ttwid/union/register/
 naturalnews.com###MastheadRowB
+||perfectflowing.com^$document
 qixingquan.com##div[style="float:right;margin-bottom:6px;"]
 ifanr.com##div.ifanr-text-content,div.banner_post_bottom,.c-jiong__image
 ||clash-media.com^$third-party
@@ -16384,6 +16383,7 @@ wap.faloo.com###ou_181
 ||drtuber.com/footer_
 icbc.com.cn#@#.adLeft
 ||srvpcn.com^$popup
+||leadingservicesintimate.com^$popup
 @@||mistore.jp/content/dam/isetan_mitsukoshi/advertise/$~third-party
 news.lyd.com.cn##td[width="300px"] > table[width="300"] > tbody > tr:nth-last-child(n+2)
 @@||annhe.net^$generichide
@@ -30354,7 +30354,6 @@ iqiyi.com##a[href*=".banggo."]
 forbes.com###cta-builder
 ||ocmhood.com^$popup
 brandsoftheworld.com##.seedling
-||turnnagin.live^$popup
 /bannerad3.js
 tzfdc.com##.AD_B
 @@||aliyun.com/nocaptcha/analyze.js
@@ -36784,6 +36783,7 @@ conservativebrief.com##.stream-item-mag
 ||hurawatch.ru/?$popup
 ||rozamimo9za10.com^$popup
 ||ozelmedikal.com^$third-party
+||allsporttv.com^$popup
 jstv.com##.jadv
 ||abcnews.com/assets/js/adCallOverride.js
 hellenicshippingnews.com##.bigbanner
@@ -38594,3 +38594,4 @@ formula1.com##.js-promo-item
 ||63ig.com/go.js
 ||revimedia.com^$popup
 gamecopyworld.com,gamecopyworld.eu##[href*="@"]
+#
