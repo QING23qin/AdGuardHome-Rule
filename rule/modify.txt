@@ -1,4 +1,4 @@
-# Update time: 2024-06-14 20:32:05
+# Update time: 2024-06-15 09:13:09
 # Repo URL: AdGuard、AdGuardHome广告过滤规则合并/去重
 
 ###################################   合并/去重自以下规则   ####################################
@@ -236,7 +236,6 @@
 ||fapality.com/b^
 ||bigholestube.com/rotator/baner.php^
 ||static.nitropay.com/nads^
-||acronymfinder.com/*/housebanners^
 ||*.va.huya.com^
 ||orgyxxxhub.com/eureka^
 ||needgayporn.com/fancyAds^
@@ -4985,6 +4984,7 @@
 ||amazon.*/gp/sponsored-products/logging^
 ||heise.de/ivw-bin/ivw/CP^
 ||timeturk.com/sayac^
+||acronymfinder.com/*/housebanners^
 ||api-router.kaspersky-labs.com/logger2^
 ||gj.applog.uc.cn/collect^
 ||action.dstillery.com/orbserv^
@@ -18247,6 +18247,7 @@ whatmobile.com.pk##div[style^="height:610px"]
 footztube.com##[href^="/tp/out"]
 crn.com##.bottom-section
 ||weibointl.api.weibo.cn/portal.php?*ad*get_coopen_ads
+||viipuris.com^$popup
 ||refpaxfbvjlw.top^$popup
 ||tiprd.xyz^$popup
 /m.html?shareName=*&proxyAccount=
