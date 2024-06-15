@@ -1,4 +1,4 @@
-# Update time: 2024-06-15 09:13:09
+# Update time: 2024-06-15 20:30:16
 # Repo URL: AdGuard、AdGuardHome广告过滤规则合并/去重
 
 ###################################   合并/去重自以下规则   ####################################
@@ -4176,7 +4176,6 @@
 127.0.0.1 go.nordvpn.net
 127.0.0.1 myworldmadebyhand.j8inn1zektoe.com
 127.0.0.1 ereg.adobe.com
-127.0.0.1 rocktraff.com
 127.0.0.1 doublepimpads.com
 127.0.0.1 wallpapergyd.j8inn1zektoe.com
 127.0.0.1 s72.cnzz.com
