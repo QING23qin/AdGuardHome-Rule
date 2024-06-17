@@ -1,4 +1,4 @@
-# Update time: 2024-06-16 20:30:21
+# Update time: 2024-06-17 09:15:47
 # Repo URL: AdGuard、AdGuardHome广告过滤规则合并/去重
 
 ###################################   合并/去重自以下规则   ####################################
@@ -49,17 +49,6 @@
 
 @@||iwan-s.video.qq.com^important
 @@||*catpcha.byteimg.com^
-||api.zhihu.com/commercial_api/launch_v2^
-|api.zhihu.com/fringe/ad
-||api.zhihu.com/commercial_api/real_time_launch_v2^
-|api.zhihu.com/ad-style-service/request
-||api.zhihu.com/appview/api/v4/answers/*/recommendations*hb_answer_ad=0
-||api.zhihu.com/answers/*/comments/featured-comment-ad
-||api.zhihu.com/topstory/recommend*$replace=/\"adjson\"/\"adnull\"/s
-||api.zhihu.com/v4/questions/*/answers*$replace=/\"adjson\"/\"adnull\"/s
-||api.zhihu.com/moments*$replace=/\"adjson\"/\"adnull\"/s
-||api.zhihu.com/people/self$replace=/\"vip_info\"/\"null_vip\"/s
-@@||www.zhihu.com/api/v4/search_v3*
 /*.*skwai.com/
 /*-ad.video.yximgs.com/
 /*-ad.sm.cn/
@@ -80,6 +69,17 @@
 /*.a.market.xiaomi.com/
 /ads*-normal-*.zijieapi.com/
 /*-lm.adkwai.com/
+||api.zhihu.com/commercial_api/launch_v2^
+|api.zhihu.com/fringe/ad
+||api.zhihu.com/commercial_api/real_time_launch_v2^
+|api.zhihu.com/ad-style-service/request
+||api.zhihu.com/appview/api/v4/answers/*/recommendations*hb_answer_ad=0
+||api.zhihu.com/answers/*/comments/featured-comment-ad
+||api.zhihu.com/topstory/recommend*$replace=/\"adjson\"/\"adnull\"/s
+||api.zhihu.com/v4/questions/*/answers*$replace=/\"adjson\"/\"adnull\"/s
+||api.zhihu.com/moments*$replace=/\"adjson\"/\"adnull\"/s
+||api.zhihu.com/people/self$replace=/\"vip_info\"/\"null_vip\"/s
+@@||www.zhihu.com/api/v4/search_v3*
 ::1 localhost
 ||*zhangyue.net^
 ||*.8le8le.com^
@@ -104,6 +104,7 @@
 ||movies123.pro/addons/try^
 ||media.stiripesurse.ro/assets/img/ads_img^
 ||sheshaft.com/js/license.*.js^
+||*.diwodiwo.xyz^
 ||mp4upload.com/jquer1.js^
 ||slutload.com/spots^
 ||beeg.com/xmlrpc.php^
@@ -143,10 +144,12 @@
 ||mylust.com/assets/script.js^
 ||realgfporn.com/lander^
 ||shok.md/wp-content/banners^
+||117.254.84.212:3000^
 ||megatube.xxx/atrm^
 ||r3sub.com/images/aaa^
 ||by218us.cdndm5.com/25^
 ||imgazure.com/888_super.php^
+||199.180.100.185/love44^
 ||cdn29.hu/apix_collect/ads^
 ||gaypornwave.com/wp-content/plugins/simple-miner-tweaks^
 ||jizzez.net/ai/s^
@@ -198,6 +201,7 @@
 ||plusone8.com/ardexaae.php^
 ||crazyshit.com/js/pu^
 ||gaia.adage.com/assets/js/min/BlockDetector.js^
+||*.exaapi.com^
 ||myflixer.is/ajax/banner^
 ||hiy.vidzi.tv/socket.io^
 ||xfuckonline.com/eureka^
@@ -224,6 +228,7 @@
 ||megatube.xxx/ai^
 ||qzone.qq.com/wspeed.qq.com^
 ||bigholestube.com/rotator/banery^
+||*.p2p.huya.com^
 ||by218us.cdndm5.com/29^
 ||thebestshemalevideos.com/images/visuals^
 ||player.4shares.live/*/img^
@@ -232,6 +237,7 @@
 ||bigholestube.com/rotator/baner.php^
 ||static.nitropay.com/nads^
 ||acronymfinder.com/*/housebanners^
+||*.va.huya.com^
 ||orgyxxxhub.com/eureka^
 ||needgayporn.com/fancyAds^
 ||myflixer.is/ajax/banners^
@@ -4843,7 +4849,6 @@
 ||infox.sg/stats.php^
 ||news.de/track.php^
 ||s3.amazonaws.com/hcluster4^
-||*.diwodiwo.xyz^
 ||yvesrocher.com.tr/images/__utm.gif^
 ||amazonaws.com/cp4pox^
 ||as.1und1.de/ias/track^
@@ -4882,7 +4887,6 @@
 ||dastelefonbuch.de/banner^
 ||zalando.de/api/rr^
 ||mangaapi.manhuaren.com/*/public/getRecommendedGame^
-||117.254.84.212:3000^
 ||classic.comunio.de/external/ct^
 ||goldgay.tv/stats.gif^
 ||amazonaws.com/embed/live/techbook/affiliate^
@@ -4890,7 +4894,6 @@
 ||1gr.cz/log^
 ||api.netmera.com/event^
 ||weltsport.appspot.com/hstrck-detect.js^
-||199.180.100.185/love44^
 ||mobile.donanimhaber.com/ads^
 ||sslwidget.criteo.com/event^
 ||techstage.de/ivw-bin/ivw/CP^
@@ -4951,7 +4954,6 @@
 ||*us*watcab*.blob.core.windows.net^
 ||*log.droid4x.cn^
 ||*mistat*.xiaomi.com^
-||*.exaapi.com^
 ||c.aaxads.com/aax.js^
 ||overseauspider.yuanshen.com:8888/log^
 ||juicebeard.prod.tda.link/rec/*/tracking^
@@ -4980,12 +4982,10 @@
 ||schlaubi.de/dynamicjavascript/tracking^
 ||*tsdk.vivo.com.cn^
 ||api.contentpass.net/stats^
-||*.p2p.huya.com^
 ||amazon.*/gp/sponsored-products/logging^
 ||heise.de/ivw-bin/ivw/CP^
 ||timeturk.com/sayac^
 ||api-router.kaspersky-labs.com/logger2^
-||*.va.huya.com^
 ||gj.applog.uc.cn/collect^
 ||action.dstillery.com/orbserv^
 ||d.sudouest.fr/logs^
@@ -4999,7 +4999,6 @@
 ||ps.eyeota.net/pixel^
 ||heise.de/avw-bin/ivw/CP^
 ||cerberus.sqrt-5041.de/somtag/logs^
-#
 /phpads/*
 ||mrdzuibek.com^$popup
 @@||ads.lingxing.com^$~third-party
@@ -18247,6 +18246,7 @@ whatmobile.com.pk##div[style^="height:610px"]
 footztube.com##[href^="/tp/out"]
 crn.com##.bottom-section
 ||weibointl.api.weibo.cn/portal.php?*ad*get_coopen_ads
+||viipuris.com^$popup
 ||refpaxfbvjlw.top^$popup
 ||tiprd.xyz^$popup
 /m.html?shareName=*&proxyAccount=
@@ -38595,3 +38595,4 @@ formula1.com##.js-promo-item
 ||63ig.com/go.js
 ||revimedia.com^$popup
 gamecopyworld.com,gamecopyworld.eu##[href*="@"]
+#

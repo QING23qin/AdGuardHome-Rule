@@ -1,4 +1,4 @@
-# Update time: 2024-06-16 20:30:21
+# Update time: 2024-06-17 09:15:47
 # Repo URL: AdGuard、AdGuardHome广告过滤规则合并/去重
 
 ###################################   合并/去重自以下规则   ####################################
@@ -3536,7 +3536,6 @@
 127.0.0.1 click.bes.baidu.com
 127.0.0.1 clksite.com
 127.0.0.1 www.imglnka.com
-127.0.0.1 p4.tribution.mobi
 127.0.0.1 ylwy168.com
 127.0.0.1 cn.adriver.ru
 127.0.0.1 z4yp9a.qygs08.cn
