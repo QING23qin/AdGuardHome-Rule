@@ -1,4 +1,4 @@
-# Update time: 2024-06-17 09:15:47
+# Update time: 2024-06-17 20:32:25
 # Repo URL: AdGuard、AdGuardHome广告过滤规则合并/去重
 
 ###################################   合并/去重自以下规则   ####################################
@@ -49,6 +49,17 @@
 
 @@||iwan-s.video.qq.com^important
 @@||*catpcha.byteimg.com^
+||api.zhihu.com/commercial_api/launch_v2^
+|api.zhihu.com/fringe/ad
+||api.zhihu.com/commercial_api/real_time_launch_v2^
+|api.zhihu.com/ad-style-service/request
+||api.zhihu.com/appview/api/v4/answers/*/recommendations*hb_answer_ad=0
+||api.zhihu.com/answers/*/comments/featured-comment-ad
+||api.zhihu.com/topstory/recommend*$replace=/\"adjson\"/\"adnull\"/s
+||api.zhihu.com/v4/questions/*/answers*$replace=/\"adjson\"/\"adnull\"/s
+||api.zhihu.com/moments*$replace=/\"adjson\"/\"adnull\"/s
+||api.zhihu.com/people/self$replace=/\"vip_info\"/\"null_vip\"/s
+@@||www.zhihu.com/api/v4/search_v3*
 /*.*skwai.com/
 /*-ad.video.yximgs.com/
 /*-ad.sm.cn/
@@ -69,17 +80,6 @@
 /*.a.market.xiaomi.com/
 /ads*-normal-*.zijieapi.com/
 /*-lm.adkwai.com/
-||api.zhihu.com/commercial_api/launch_v2^
-|api.zhihu.com/fringe/ad
-||api.zhihu.com/commercial_api/real_time_launch_v2^
-|api.zhihu.com/ad-style-service/request
-||api.zhihu.com/appview/api/v4/answers/*/recommendations*hb_answer_ad=0
-||api.zhihu.com/answers/*/comments/featured-comment-ad
-||api.zhihu.com/topstory/recommend*$replace=/\"adjson\"/\"adnull\"/s
-||api.zhihu.com/v4/questions/*/answers*$replace=/\"adjson\"/\"adnull\"/s
-||api.zhihu.com/moments*$replace=/\"adjson\"/\"adnull\"/s
-||api.zhihu.com/people/self$replace=/\"vip_info\"/\"null_vip\"/s
-@@||www.zhihu.com/api/v4/search_v3*
 ::1 localhost
 ||*zhangyue.net^
 ||*.8le8le.com^
@@ -4999,6 +4999,7 @@
 ||ps.eyeota.net/pixel^
 ||heise.de/avw-bin/ivw/CP^
 ||cerberus.sqrt-5041.de/somtag/logs^
+#
 /phpads/*
 ||mrdzuibek.com^$popup
 @@||ads.lingxing.com^$~third-party
@@ -10678,7 +10679,6 @@ ruanyifeng.com##a[href*=".kaikeba.com"]
 /public/ads/*$image
 @@||googletagservices.com/tag/js/gpt.js$domain=tvb.com|tvbs.com.tw|www.gamer.com.tw
 ||betzone2000.com^$popup
-||katebugs.com^$popup
 rentixuewei.com##.list_main_R_ad,.show_dy,.ad
 =468x80_
 ||practicepeter.com^$popup
@@ -11851,6 +11851,7 @@ tennews.in##div[data-adid]
 gadgets360.com##.lhs_top_banner
 jin10.com##.jin-jgg
 pornx.to##.ads-above-single-player
+||pianyuan.la/slade.js
 =ads_
 @@||msn.wrating.com/a1.js
 ||data.game.xiaomi.com/1px.gif
@@ -16383,6 +16384,7 @@ wap.faloo.com###ou_181
 ||drtuber.com/footer_
 icbc.com.cn#@#.adLeft
 ||srvpcn.com^$popup
+||leadingservicesintimate.com^$popup
 @@||mistore.jp/content/dam/isetan_mitsukoshi/advertise/$~third-party
 news.lyd.com.cn##td[width="300px"] > table[width="300"] > tbody > tr:nth-last-child(n+2)
 @@||annhe.net^$generichide
@@ -18246,7 +18248,6 @@ whatmobile.com.pk##div[style^="height:610px"]
 footztube.com##[href^="/tp/out"]
 crn.com##.bottom-section
 ||weibointl.api.weibo.cn/portal.php?*ad*get_coopen_ads
-||viipuris.com^$popup
 ||refpaxfbvjlw.top^$popup
 ||tiprd.xyz^$popup
 /m.html?shareName=*&proxyAccount=
@@ -18713,6 +18714,7 @@ house.qq.com###adv_top,.adv_box
 antimusic.com##.am-center
 360che.com##div[id^="PAGE_AD_"]
 weishangshijie.cn##.head_imgwl
+||brazzers.com/click/$popup
 ||ero-labs.com/adIframe/
 analyticsindiamag.com##.elementor-element-8e2d1f0
 1111.baidu.com,bdimg.com,tieba.baidu.com,tieba.com,xingqu.baidu.com###local_pb_top
@@ -30354,7 +30356,6 @@ iqiyi.com##a[href*=".banggo."]
 forbes.com###cta-builder
 ||ocmhood.com^$popup
 brandsoftheworld.com##.seedling
-||turnnagin.live^$popup
 /bannerad3.js
 tzfdc.com##.AD_B
 @@||aliyun.com/nocaptcha/analyze.js
@@ -33281,6 +33282,7 @@ baidu.com###sning3
 ||peeredgerman.com^$popup
 ||offergate-games-download1.com^$popup
 thepointsguy.com##.showBb
+||brokennails.org^$popup
 dribbble.com##[data-ad-data*="ad_link"]
 tvzoneuk.com##.R38Z80
 @@||mhxk.com^*/main/entry.common.$script
@@ -35610,6 +35612,7 @@ uk420.com##.ipsLayout_container > div[align="center"]
 seeklogo.com##.sideAdsWp
 ||alternativecpmgate.com^$popup
 ||xtendmedia.com^$third-party
+||bullchat.com/sponsor/
 amazon.ae,amazon.ca,amazon.cn,amazon.co.jp,amazon.co.uk,amazon.com,amazon.com.au,amazon.com.be,amazon.com.br,amazon.com.mx,amazon.com.tr,amazon.de,amazon.eg,amazon.es,amazon.fr,amazon.in,amazon.it,amazon.nl,amazon.pl,amazon.sa,amazon.se,amazon.sg##span[cel_widget_id^="MAIN-loom-desktop-top-slot_hsa-id-CARDS-"]
 anywlan.com##.bscekvofc_o
 ||vid-adblocker.com^$popup
@@ -38259,6 +38262,7 @@ www.7c.com##div#index_ad,div.top_ad_html
 @@/urchin.js$domain=on.cc
 ||dx-wscdncnc.inter.71edge.com/videos/other^$media
 bbs.xineurope.com##div.center.clear.adft,td[width="240"],div[class^="a_p"]
+||trstx.org/overroll/
 steelcn.cn###table img
 ||mediaplex.com/ad/
 159i.com##.a1.style25
@@ -38595,4 +38599,3 @@ formula1.com##.js-promo-item
 ||63ig.com/go.js
 ||revimedia.com^$popup
 gamecopyworld.com,gamecopyworld.eu##[href*="@"]
-#
