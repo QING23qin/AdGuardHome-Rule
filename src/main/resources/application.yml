@@ -39,6 +39,8 @@ application:
       - 'https://raw.githubusercontent.com/zsakvo/AdGuard-Custom-Rule/master/rule/zhihu.txt' #name: 知乎 普通版
       - 'https://raw.githubusercontent.com/Cats-Team/AdRules/main/dns.txt' #name: 杏稍AdRules DNS List
       - 'https://www.xlxbk.cn/dns.txt' #xlxbk
+      - 'https://adguardteam.github.io/HostlistsRegistry/assets/filter_29.txt' #adguard中文
+      - 'https://adguardteam.github.io/HostlistsRegistry/assets/filter_1.txt' #adguard
       
       #原作者自用添加↓
 
