@@ -1,4 +1,4 @@
-# Update time: 2024-06-22 20:29:43
+# Update time: 2024-06-23 09:17:59
 # Repo URL: AdGuard、AdGuardHome广告过滤规则合并/去重
 
 ###################################   合并/去重自以下规则   ####################################
@@ -10169,6 +10169,7 @@
 0.0.0.0 oascentral.hollywood.com
 0.0.0.0 ads.newtention.net
 0.0.0.0 wikiforosh.ir
+0.0.0.0 ad.360yield.com
 0.0.0.0 storelive.co
 0.0.0.0 www.searchadv.com
 0.0.0.0 vomitgirl.org
@@ -24474,6 +24475,7 @@
 127.0.0.1 3gsoftfile.tcdn.qq.com
 127.0.0.1 datasink.dxmpay.com
 127.0.0.1 minigame5-normal.zijieapi.com
+127.0.0.1 ads.95516.com
 127.0.0.1 104426.bid.domob.cn
 127.0.0.1 1426.l.mob.com
 127.0.0.1 adsmind.tc.qq.com
