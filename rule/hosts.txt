@@ -1,4 +1,4 @@
-# Update time: 2024-06-24 09:15:05
+# Update time: 2024-06-24 20:32:54
 # Repo URL: AdGuard、AdGuardHome广告过滤规则合并/去重
 
 ###################################   合并/去重自以下规则   ####################################
@@ -5372,6 +5372,7 @@
 0.0.0.0 telecommand.telemetry.microsoft.com
 0.0.0.0 cds21233.lon.llnw.net
 0.0.0.0 db5.vortex.data.microsoft.com.akadns.net
+0.0.0.0 bn3sch020010636.wns.windows.com
 0.0.0.0 hk2sch130021654.wns.windows.com
 0.0.0.0 v10-win.vortex.data.microsoft.com.akadns.net
 0.0.0.0 secure.adnxs.com
@@ -15991,6 +15992,7 @@
 0.0.0.0 www.ctbdev.net
 0.0.0.0 somethingawful.crwdcntrl.net
 0.0.0.0 t8t7frium3.s.ad6media.fr
+0.0.0.0 ads.peel.com
 0.0.0.0 bwp.lastfm.com.com
 0.0.0.0 ertbaudet.fr
 0.0.0.0 cdn.8digits.com
@@ -21315,6 +21317,7 @@
 127.0.0.1 openbid.pubmatic.com
 127.0.0.1 data.coremetrics.com
 127.0.0.1 2712.api.swrve.com
+127.0.0.1 csync.loopme.me
 127.0.0.1 mobile.controller.duokanbox.com
 127.0.0.1 log.tbs.qq.com
 127.0.0.1 segment-api.humann.com
@@ -24439,7 +24442,6 @@
 127.0.0.1 m.ad.zhangyue.com
 127.0.0.1 amsapp.yicai.com
 127.0.0.1 m-mpl.hiaiabc.com
-127.0.0.1 openacs4uc.m.taobao.com
 127.0.0.1 mi.eulerian.net
 127.0.0.1 auth.api.gitv.tv
 127.0.0.1 cgi.connect.qq.com
@@ -24473,6 +24475,7 @@
 127.0.0.1 3gsoftfile.tcdn.qq.com
 127.0.0.1 datasink.dxmpay.com
 127.0.0.1 minigame5-normal.zijieapi.com
+127.0.0.1 ads.95516.com
 127.0.0.1 104426.bid.domob.cn
 127.0.0.1 1426.l.mob.com
 127.0.0.1 adsmind.tc.qq.com
