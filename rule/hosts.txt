@@ -1,4 +1,4 @@
-# Update time: 2024-06-25 09:13:47
+# Update time: 2024-06-25 20:32:13
 # Repo URL: AdGuard、AdGuardHome广告过滤规则合并/去重
 
 ###################################   合并/去重自以下规则   ####################################
@@ -5372,6 +5372,7 @@
 0.0.0.0 telecommand.telemetry.microsoft.com
 0.0.0.0 cds21233.lon.llnw.net
 0.0.0.0 db5.vortex.data.microsoft.com.akadns.net
+0.0.0.0 bn3sch020010636.wns.windows.com
 0.0.0.0 hk2sch130021654.wns.windows.com
 0.0.0.0 v10-win.vortex.data.microsoft.com.akadns.net
 0.0.0.0 secure.adnxs.com
@@ -8933,6 +8934,7 @@
 0.0.0.0 aetv.112.2o7.net
 0.0.0.0 scripts.verticalacuity.com
 0.0.0.0 jl-mag.de
+0.0.0.0 myrogers-dashboard-signin.net
 0.0.0.0 c.latam.msn.com
 0.0.0.0 gbr-carat-tracking.adalyser.com
 0.0.0.0 mmoframes.com
@@ -10168,7 +10170,6 @@
 0.0.0.0 oascentral.hollywood.com
 0.0.0.0 ads.newtention.net
 0.0.0.0 wikiforosh.ir
-0.0.0.0 ad.360yield.com
 0.0.0.0 storelive.co
 0.0.0.0 www.searchadv.com
 0.0.0.0 vomitgirl.org
@@ -20182,6 +20183,7 @@
 127.0.0.1 aiqua-sdk.c.appier.net
 127.0.0.1 w.sharethis.com
 127.0.0.1 analytics.ccgateway.net
+127.0.0.1 cdn.dimml.io
 127.0.0.1 pasta.da.duapps.com
 127.0.0.1 api.adrtx.net
 127.0.0.1 ips-img.iperceptions.com
