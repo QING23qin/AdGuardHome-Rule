@@ -1,4 +1,4 @@
-# Update time: 2024-06-25 20:32:13
+# Update time: 2024-06-26 09:13:40
 # Repo URL: AdGuard、AdGuardHome广告过滤规则合并/去重
 
 ###################################   合并/去重自以下规则   ####################################
@@ -20183,7 +20183,6 @@
 127.0.0.1 aiqua-sdk.c.appier.net
 127.0.0.1 w.sharethis.com
 127.0.0.1 analytics.ccgateway.net
-127.0.0.1 cdn.dimml.io
 127.0.0.1 pasta.da.duapps.com
 127.0.0.1 api.adrtx.net
 127.0.0.1 ips-img.iperceptions.com
@@ -24476,7 +24475,6 @@
 127.0.0.1 3gsoftfile.tcdn.qq.com
 127.0.0.1 datasink.dxmpay.com
 127.0.0.1 minigame5-normal.zijieapi.com
-127.0.0.1 ads.95516.com
 127.0.0.1 104426.bid.domob.cn
 127.0.0.1 1426.l.mob.com
 127.0.0.1 adsmind.tc.qq.com
