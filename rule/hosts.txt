@@ -1,4 +1,4 @@
-# Update time: 2024-06-30 20:30:26
+# Update time: 2024-07-01 09:21:52
 # Repo URL: AdGuard、AdGuardHome广告过滤规则合并/去重
 
 ###################################   合并/去重自以下规则   ####################################
@@ -21317,7 +21317,6 @@
 127.0.0.1 openbid.pubmatic.com
 127.0.0.1 data.coremetrics.com
 127.0.0.1 2712.api.swrve.com
-127.0.0.1 csync.loopme.me
 127.0.0.1 mobile.controller.duokanbox.com
 127.0.0.1 log.tbs.qq.com
 127.0.0.1 segment-api.humann.com
@@ -22300,7 +22299,6 @@
 127.0.0.1 geo.query.yahoo.com
 127.0.0.1 adcfg.intowow.com
 127.0.0.1 app-ab31.marketo.com
-127.0.0.1 a.zdbb.net
 127.0.0.1 ad.vrvm.com
 127.0.0.1 cdne.cpmstar.com
 127.0.0.1 graph.bluecava.com
@@ -24841,6 +24839,7 @@
 127.0.0.1 crashdump.ciqe-gslb.spotify.com
 127.0.0.1 104150.bid.domob.cn
 127.0.0.1 s-w.applk.cn
+127.0.0.1 a.zdbb.net
 127.0.0.1 soul-ad.soulapp.cn
 127.0.0.1 cm055.getui.igexin.com
 127.0.0.1 sohu.wrating.com
