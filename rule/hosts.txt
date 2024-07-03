@@ -1,4 +1,4 @@
-# Update time: 2024-07-03 09:14:08
+# Update time: 2024-07-03 20:32:51
 # Repo URL: AdGuard、AdGuardHome广告过滤规则合并/去重
 
 ###################################   合并/去重自以下规则   ####################################
@@ -19450,6 +19450,7 @@
 127.0.0.1 assets.privy.com
 127.0.0.1 dacdn.pushcrew.com
 127.0.0.1 us01.rayjump.com
+127.0.0.1 sam4m.com
 127.0.0.1 ads3-adnow.com
 127.0.0.1 analytics.map.qq.com
 127.0.0.1 ads.themoneytizer.com
