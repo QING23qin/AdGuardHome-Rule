@@ -1,4 +1,4 @@
-# Update time: 2024-07-06 20:29:50
+# Update time: 2024-07-07 09:20:40
 # Repo URL: AdGuard、AdGuardHome广告过滤规则合并/去重
 
 ###################################   合并/去重自以下规则   ####################################
@@ -18828,7 +18828,6 @@
 127.0.0.1 script.crazyegg.com
 127.0.0.1 woodpecker.uc.cn
 127.0.0.1 analytics.ccgateway.net
-127.0.0.1 cdn.dimml.io
 127.0.0.1 api.adrtx.net
 127.0.0.1 ads.uberads.com
 127.0.0.1 asia-stsdk.vivoglobal.com
