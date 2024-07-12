@@ -36,7 +36,6 @@
     <li><a href="https://github.com/rentianyu/Ad-set-hosts?tab=readme-ov-file#ad-set-hosts">小贝塔维护的hosts</a></li>
     # 本地列表
     <li><a href="https://raw.githubusercontent.com/QING23qin/AdGuardHome-Rule/main/rule/mylist.txt">mylist</a></li>
-    <li><a href="https://raw.githubusercontent.com/QING23qin/AdGuardHome-Rule/main/rule/yyy.txt">yyy（来自urkbio的AdGuard-Rule）</a></li>
     <li><a href="https://raw.githubusercontent.com/QING23qin/AdGuardHome-Rule/main/rule/oldhost.txt">oldhost</a></li>
 </ul>
 </details>
