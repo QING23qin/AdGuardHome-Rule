@@ -88,6 +88,7 @@ application:
       #- 'https://raw.githubusercontents.com/91ajames/ublock-filters-ulist-youtube/main/blocklist.txt' #name: ublock-filters-ulist-youtube
       #- 'https://raw.githubusercontent.com/TG-Twilight/AWAvenue-Ads-Rule/main/AWAvenue-Ads-Rule.txt' #name: 秋风广告规则,针对Android广告
       - 'https://raw.githubusercontent.com/mrchi/adaway-hosts/main/anti-ad-adaway.txt' #adaway-hosts
+      - 'https://raw.githubusercontent.com/rentianyu/Ad-set-hosts/master/adguard' #Ad-set-hosts
       
     #本地规则
     local: #本地规则请将文件移动到项目路径rule目录中
