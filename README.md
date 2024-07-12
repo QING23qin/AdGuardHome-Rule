@@ -15,7 +15,7 @@
 本项目旨在按需求整合 `AdGuard` 规则。定时从上游订阅获取规则，去除`重复`和`不受支持`的规则并进行分类。如果存在误杀请手动放行。  
 支持`AdGuard Home`,每`12小时`自动更新一次   
 
-#### 上游规则
+#### 上游规则（排序不分先后）
 
 <details>
 <summary>点击查看</summary>
@@ -34,6 +34,11 @@
     <li><a href="https://raw.githubusercontent.com/xinggsf/Adblock-Plus-Rule/master/rule.txt">乘风 广告过滤规则</a></li>
     <li><a href="https://raw.githubusercontent.com/xinggsf/Adblock-Plus-Rule/master/mv.txt">乘风 视频过滤规则</a></li>
     <li><a href="https://github.com/rentianyu/Ad-set-hosts?tab=readme-ov-file#ad-set-hosts">小贝塔维护的hosts</a></li>
+  <li><a href="https://adguardteam.github.io/HostlistsRegistry/assets/filter_1.txt">AdguardSDNSFilter</a></li>
+  <li><a href="https://raw.githubusercontent.com/qq5460168/666/master/dns.txt">666(一个AdGuard的去广告规则）</a></li>
+  <li><a href="https://easylist-downloads.adblockplus.org/easylistchina+easylist.txt">easylistchina+easylist</a></li>
+  <li><a href="https://raw.githubusercontent.com/217heidai/adblockfilters/main/rules/adblockdns.txt">AdBlock DNS</a></li>
+  <li><a href="https://big.oisd.nl/">Adblock Plus</a></li>
     # 本地列表
     <li><a href="https://raw.githubusercontent.com/QING23qin/AdGuardHome-Rule/main/rule/mylist.txt">mylist</a></li>
     <li><a href="https://raw.githubusercontent.com/QING23qin/AdGuardHome-Rule/main/rule/oldhost.txt">oldhost</a></li>
