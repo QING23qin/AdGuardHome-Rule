@@ -48,7 +48,7 @@
 @@||openmonitor.alipay-eco.com^$important
 
 #微信DNS/小程序广告奖励/HTTPS检测
-@@||apd-pcdnwxlogin.teg.tencent-cloud.net^$important
+#@@||apd-pcdnwxlogin.teg.tencent-cloud.net^$important
 
 #小米推送服务
 @@||cn.app.chat.xiaomi.net^
