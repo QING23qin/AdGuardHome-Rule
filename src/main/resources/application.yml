@@ -26,6 +26,8 @@ application:
       #- 'https://raw.githubusercontent.com/AdguardTeam/FiltersRegistry/master/filters/filter_2_Base/filter.txt' #adguard base
       
       #自用添加
+      - 'https://raw.githubusercontent.com/E7KMbb/AD-hosts/master/system/etc/hosts' #E7KMbb Ad-host
+      - 'https://easylist-downloads.adblockplus.org/easylistchina.txt' #Easylist China
       - 'https://raw.githubusercontent.com/Lynricsy/HyperADRules/master/dns.txt' #Hyper
       - 'https://raw.githubusercontent.com/lingeringsound/10007_auto/master/all' #10007_auto(大圣净化,yhost,Steven Black,oisd,1024,adhost)
       #- 'https://raw.githubusercontent.com/Lynricsy/HyperADRules/master/allow.txt' #Hyper白名单
@@ -33,7 +35,7 @@ application:
       #- 'https://raw.githubusercontent.com/jerryn70/GoodbyeAds/master/Formats/GoodbyeAds-AdBlock-Filter.txt' #Goodbyeads70
       #- 'https://raw.githubusercontent.com/8680/GOODBYEADS/master/dns.txt' #Goodbyeads8680
       - 'https://raw.githubusercontent.com/urkbio/adguardhomefilter/main/whitelist.txt' #zyg白名单
-      #- 'https://raw.githubusercontent.com/privacy-protection-tools/anti-AD/master/anti-ad-easylist.txt' #anti-ad
+      - 'https://raw.githubusercontent.com/privacy-protection-tools/anti-AD/master/anti-ad-easylist.txt' #anti-ad
       #- 'https://raw.githubusercontent.com/xndeye/adblock_list/main/rule/dns.txt' #xndeye
       - 'https://raw.githubusercontent.com/TG-Twilight/AWAvenue-Ads-Rule/main/AWAvenue-Ads-Rule.txt' #name: 秋风广告规则,针对Android广告
       - 'https://raw.githubusercontent.com/jdlingyu/ad-wars/master/hosts' #大圣净化
