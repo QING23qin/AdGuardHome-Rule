@@ -6,7 +6,8 @@
 </div>
 
 <p><a href="https://raw.githubusercontent.com/QING23qin/AdGuardHome-Rule/main/rule/adgh.txt">AdGuardHome Filter</a></p>
-<p><a href="https://ghproxy.net/https://raw.githubusercontent.com/QING23qin/AdGuardHome-Rule/main/rule/adgh.txt">AdGuardHome Filter国内镜像</a></p>
+<p><a href="https://mirror.ghproxy.com/https://raw.githubusercontent.com/QING23qin/AdGuardHome-Rule/main/rule/adgh.txt">AdGuardHome Filter国内镜像1</a></p>
+<p><a href="https://down.npee.cn/?https://raw.githubusercontent.com/QING23qin/AdGuardHome-Rule/main/rule/adgh.txt">AdGuardHome Filter国内镜像2</a></p>
 
 
 <h2 id="a">📔 说明</h2>
