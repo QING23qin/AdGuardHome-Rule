@@ -1,4 +1,4 @@
-# Update time: 2024-07-12 19:29:42
+# Update time: 2024-07-12 20:20:07
 # Repo URL: AdGuard、AdGuardHome广告过滤规则合并/去重
 
 ###################################   合并/去重自以下规则   ####################################
@@ -177,7 +177,6 @@ cctv.com,www.douyu.com##+js(aeld,/visibilitychange|pagehide/)
 douyu.com,huya.com##a[href^="https://g.wan."]
 ||video.da.mgtv.com/$media
 ||shark2.douyucdn.cn/front-publish/live-master/js/room/topBanner_$script
-::1 localhost
 ||com/adimg
 ||gushiwen.cn/getTicket.aspx^$xhr
 *.pop.js^$script
@@ -1237,6 +1236,7 @@ baike.baidu.com##.squareAni.square.super-layer-promote
 */178acg/
 */adz.js|
 *.ppunion.
+::1 localhost
 ||*zhangyue.net^
 ||*.8le8le.com^
 ||*-be-pack.pglstatp-toutiao.com^
@@ -3347,54 +3347,33 @@ chipinfo.pro###content-container > div[style^="position: fixed;"]
 ::1 ip6-loopback
 ::1 ip6-localhost
 ##################
-||*.openxt.cn^
-||*.wzhuze.com^
-/^dwtrack\./
-||*.ad-cloud.jp^
-/^pingfore\./
-||*.symae.cn^
-||*.wgnlz.com^
-/^appsflyer\./
-/^guanggao\./
-||*-ad-sign.byteimg.com^
-/^adsserving\./
-/^supersonicads\./
-/^socdm\./
-||*.alimama.com^
-||*.xlmc.sandai.net^
-/^zjtoolbar\./
-||*.chaojilamei.cn^
-/^omgmta\./
-||*.anreson.net^
-/^adsrvmedia\./
-||*.wap.xsbiquge.com^
-||*.omega7o.com^
-||*.qiujinxiao.com^
-||*.sysal.cn^
-||*.pwjhg.com^
-||*.victoryslam.com^
 ||*.cnzz.kld666.com^
 ||*.mxmrt.com^
-||*.yicang8.com^
+||*.openxt.cn^
+/^dwtrack\./
 ||*.jinchaoyu.com^
 ||*.66san.com^
 /^adservice\./
 ||*.prodsell.com^
-||*.uissm.com^
+/^appsflyer\./
+/^guanggao\./
 /^adsage\./
 ||*.hzht666.com^
 /^adwords\./
 ||*.88rpg.net^
+/^supersonicads\./
 ||*.dkdlsj.com^
 ||*.yunanfuwuqi.com^
-||*.yoiur.com^
 ||*.edo5.com^
 ||*.adm-cnzz.net^
+/^zjtoolbar\./
 ||*-ad.a.yximgs.com^
+/^omgmta\./
+||*.anreson.net^
 /^adsystem\./
-||*.ydqzkj.com^
 /^admarvel\./
 ||*.gyhzr.com^
+||*.qiujinxiao.com^
 /^applovin\./
 /^.+stat\.kugou\.com/
 ||*.exaapi.com^
@@ -3406,16 +3385,19 @@ chipinfo.pro###content-container > div[style^="position: fixed;"]
 ||*.kyad88.com^
 /^domob\./
 ||*.popupad.cn^
+||*.ad-cloud.jp^
 ||*.zhiong.net^
 ||*.yzh360.com^
 ||*.yunos.com^
+/^pingfore\./
 ||*.cferw.com^
 ||*-ad-sign.byteimg.com^
 ||*.mmkvi.com^
 ||*.nxrhs.com^
-||*.qtmojo.cn^
+/^adsserving\./
 /^openx\./
 /^socdm\./
+||*.alimama.com^
 ||*.csyueye.com^
 ||*.anmeilai.net^
 /^omniture\./
@@ -3423,16 +3405,31 @@ chipinfo.pro###content-container > div[style^="position: fixed;"]
 ||*.3ygww.com^
 ||*.ysdhe.com^
 ||*.zhudiaosz.com^
+||*.chaojilamei.cn^
 /^adsmogo\./
 /^wlmonitor\./
 /^admaster\./
 /^partnerad\./
 /^duomeng\./
+/^adsrvmedia\./
 ||*-applog.fqnovel.com^
 ||*.mlt01.com^
 /^omgmtaw\./
 ||*.njmpacc.com^
 ||*.omega7o.com^
+||*.pwjhg.com^
+||*.yicang8.com^
+||*.wzhuze.com^
+||*.qtmojo.cn^
+||*.yoiur.com^
+||*.xlmc.sandai.net^
+||*.ydqzkj.com^
+||*.symae.cn^
+||*.wap.xsbiquge.com^
+||*.wgnlz.com^
+||*.uissm.com^
+||*.sysal.cn^
+||*.victoryslam.com^
 ||*.yongkang6.com^
 .bbelements.com^
 .n.2.1.js^
@@ -6998,6 +6995,7 @@ flxdaily.com##.multiple-ads,.google-ad-970x250,.adsbygoogle
 /asyncjs.php
 jump.bdimg.com,tieba.baidu.com##.u_xiu8
 /ads/300.
+pussycatxx.com,zhentube.com###tracking-url
 marketscreener.com###zppRight2
 2345.com##.cmoe-nxh-dx
 ||fwmrm.net^$popup
@@ -32531,6 +32529,7 @@ iqiyi.com##a[href*=".banggo."]
 forbes.com###cta-builder
 ||ocmhood.com^$popup
 brandsoftheworld.com##.seedling
+||turnnagin.live^$popup
 /bannerad3.js
 tzfdc.com##.AD_B
 ||988aiai.com/static/js/common.js
@@ -39692,6 +39691,7 @@ asurascans.com,ozulscansen.com,realmscans.com,void-scans.com,yugenmangas.net###t
 ||591hx.com/zyrk_dy/gwjl.html
 tbtdg.com##.reveal-modal-bg
 ||cnjxol.com/jxrbPaper/pc/static/js/scroll.js
+||rigelbetelgeuse.top^$document
 @@||bbc.co.uk^*/adverts.js
 xici.net##.ad_top
 romzie.com##.shcntr
