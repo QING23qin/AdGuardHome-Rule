@@ -1,20 +1,18 @@
 <div align="center">
 <h1>AdGuard Rule</h1>
   <p>
-    一个简易的Java程序，用于合并与更新 AdGuard 过滤规则
+    一个简易的Java程序，用于合并与更新 AdGuard Home 过滤规则
 </p>
 </div>
 
-<p><a href="https://raw.githubusercontent.com/urkbio/AdGuard-Rule/main/rule/adgh.txt">AdGuard Home Filter</a></p>
-<p><a href="https://ghproxy.net/https://raw.githubusercontent.com/urkbio/AdGuard-Rule/main/rule/adgh.txt">AdGuard Home Filter国内加速</a></p>
+<p><a href="https://raw.githubusercontent.com/QING23qin/AdGuardHome-Rule/main/rule/adgh.txt">AdGuardHome Filter</a></p>
+<p><a href="https://ghproxy.net/https://raw.githubusercontent.com/QING23qin/AdGuardHome-Rule/main/rule/adgh.txt">AdGuardHome Filter国内</a></p>
 
-<p><a href="https://raw.githubusercontent.com/urkbio/AdGuard-Rule/main/rule/all.txt">AdGuard APP Filter</a></p>
-<p><a href="https://ghproxy.net/https://raw.githubusercontent.com/urkbio/AdGuard-Rule/main/rule/all.txt">AdGuard APP Filter国内加速</a></p>
 
 <h2 id="a">📔 说明</h2>
 
 本项目旨在按需求整合 `AdGuard` 规则。定时从上游订阅获取规则，去除`重复`和`不受支持`的规则并进行分类。如果存在误杀请手动放行。  
-支持`AdGuard`、`AdGuard Home`,每`12小时`自动更新一次   
+支持`AdGuard Home`,每`12小时`自动更新一次   
 
 #### 上游规则
 
