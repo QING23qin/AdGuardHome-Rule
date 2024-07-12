@@ -1,4 +1,4 @@
-# Update time: 2024-07-11 20:33:09
+# Update time: 2024-07-12 09:14:46
 # Repo URL: AdGuard、AdGuardHome广告过滤规则合并/去重
 
 ###################################   合并/去重自以下规则   ####################################
@@ -4361,7 +4361,6 @@
 0.0.0.0 ccpmo.com
 0.0.0.0 media.xxxnavy.com
 0.0.0.0 websurvey.spa-mr.com
-0.0.0.0 popagency.net
 0.0.0.0 www.fatcatrewards.com
 0.0.0.0 c11.statcounter.com
 0.0.0.0 ad6.horvitznewspapers.net
@@ -18829,7 +18828,6 @@
 127.0.0.1 script.crazyegg.com
 127.0.0.1 woodpecker.uc.cn
 127.0.0.1 analytics.ccgateway.net
-127.0.0.1 cdn.dimml.io
 127.0.0.1 api.adrtx.net
 127.0.0.1 ads.uberads.com
 127.0.0.1 asia-stsdk.vivoglobal.com
@@ -21600,7 +21598,6 @@
 127.0.0.1 3gsoftfile.tcdn.qq.com
 127.0.0.1 datasink.dxmpay.com
 127.0.0.1 minigame5-normal.zijieapi.com
-127.0.0.1 ads.95516.com
 127.0.0.1 104426.bid.domob.cn
 127.0.0.1 1426.l.mob.com
 127.0.0.1 adsmind.tc.qq.com
