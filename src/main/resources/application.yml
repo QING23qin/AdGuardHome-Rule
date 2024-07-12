@@ -89,11 +89,14 @@ application:
       #- 'https://raw.githubusercontent.com/TG-Twilight/AWAvenue-Ads-Rule/main/AWAvenue-Ads-Rule.txt' #name: 秋风广告规则,针对Android广告
       - 'https://raw.githubusercontent.com/mrchi/adaway-hosts/main/anti-ad-adaway.txt' #adaway-hosts
       - 'https://raw.githubusercontent.com/rentianyu/Ad-set-hosts/master/adguard' #Ad-set-hosts
-      
+      - 'https://adguardteam.github.io/HostlistsRegistry/assets/filter_1.txt' #AdguardSDNSFilter
+      - 'https://raw.githubusercontent.com/qq5460168/666/master/dns.txt' #qq5460168
+      - 'https://easylist-downloads.adblockplus.org/easylistchina+easylist.txt' #easylistchina
+      - 'https://raw.githubusercontent.com/217heidai/adblockfilters/main/rules/adblockdns.txt' #AdBlock DNS
+      - 'https://big.oisd.nl/' #Adblock Plus
     #本地规则
     local: #本地规则请将文件移动到项目路径rule目录中
       - 'mylist.txt'
-      - 'yyy.txt'
       - 'oldhost.txt'
   output:
     path: rule   #规则文件输出路径，相对路径默认从 项目目录开始
