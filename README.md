@@ -1,21 +1,24 @@
 <div align="center">
-<h1>AdGuard Rule</h1>
+<h1>AdGuardHome-Rule</h1>
   <p>
-    一个简易的Java程序，用于合并与更新 AdGuard Home 过滤规则
+    一个自用Java程序，用于更新和合并去重 AdGuard Home 的过滤规则
 </p>
 </div>
 
 <p><a href="https://raw.githubusercontent.com/QING23qin/AdGuardHome-Rule/main/rule/adgh.txt">AdGuardHome Filter</a></p>
-<p><a href="https://mirror.ghproxy.com/https://raw.githubusercontent.com/QING23qin/AdGuardHome-Rule/main/rule/adgh.txt">AdGuardHome Filter国内镜像1</a></p>
-<p><a href="https://down.npee.cn/?https://raw.githubusercontent.com/QING23qin/AdGuardHome-Rule/main/rule/adgh.txt">AdGuardHome Filter国内镜像2</a></p>
+<p><a href="https://mirror.ghproxy.com/https://raw.githubusercontent.com/QING23qin/AdGuardHome-Rule/main/rule/adgh.txt">AdGuardHome Filter国内加速1</a></p>
+<p><a href="https://down.npee.cn/?https://raw.githubusercontent.com/QING23qin/AdGuardHome-Rule/main/rule/adgh.txt">AdGuardHome Filter国内加速2</a></p>
+<p><a href="https://raw.githubusercontent.com/QING23qin/AdGuardHome-Rule/main/rule/hosts.txt">Hosts规则</a></p>
+<p><a href="https://mirror.ghproxy.com/https://raw.githubusercontent.com/QING23qin/AdGuardHome-Rule/main/rule/hosts.txt">Hosts规则国内加速1</a></p>
+<p><a href="https://down.npee.cn/?https://raw.githubusercontent.com/QING23qin/AdGuardHome-Rule/main/rule/hosts.txt">Hosts规则国内加速2</a></p>
 
 
 <h2 id="a">📔 说明</h2>
 
-本项目旨在按需求整合 `AdGuard` 规则。定时从上游订阅获取规则，去除`重复`和`不受支持`的规则并进行分类。如果存在误杀请手动放行。  
+本项目旨在按需求整合 `AdGuardHome` 规则。定时从上游订阅获取规则，去除`重复`和`不受支持`的规则并进行分类。如果存在误杀请手动放行。  
 支持`AdGuard Home`,每`12小时`自动更新一次   
 
-#### 上游规则（排序不分先后）
+#### 上游规则（以下链接不分先后顺序）
 
 <details>
 <summary>点击查看</summary>
