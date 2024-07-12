@@ -32,7 +32,8 @@
     <li><a href="https://raw.githubusercontent.com/Cats-Team/AdRules/main/dns.txt">杏稍AdRules DNS List</a></li>
     <li><a href="https://adguardteam.github.io/HostlistsRegistry/assets/filter_29.txt">adguard中文/a></li>
     <li><a href="https://raw.githubusercontent.com/xinggsf/Adblock-Plus-Rule/master/rule.txt">乘风 广告过滤规则</a></li>
-    <li><a href="https://raw.githubusercontent.com/xinggsf/Adblock-Plus-Rule/master/mv.txt">乘风 视频过滤规则</a></li>
+    <li><a href="https://raw.githubusercontent.com/xinggsf/Adblock-Plus-Rule/master/mv.txt">乘风 视频过滤规则</a></li
+                                                                                                           
     # 本地列表
     <li><a href="https://raw.githubusercontent.com/QING23qin/AdGuardHome-Rule/main/rule/mylist.txt">mylist</a></li>
     <li><a href="https://raw.githubusercontent.com/QING23qin/AdGuardHome-Rule/main/rule/yyy.txt">yyy（来自urkbio的AdGuard-Rule）</a></li>
